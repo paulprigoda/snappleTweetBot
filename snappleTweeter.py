@@ -7,10 +7,10 @@ import pandas as pd
 import random
 import re
 
-api = twitter.Api(consumer_key='clqJJUfshj37KlSarjfQDkIhh',
-                  consumer_secret='7U0MIGlZBPaDkXGPaOsXHA6CYqXHU5zSS2LwOs6YkGE0zinR61',
-                  access_token_key='1214733990759931904-ePDknydmNPOGfvOUh3JFkJKIlD45h0',
-                  access_token_secret='98CBKwqBIN6frODRaXFdSbOrlxGcUNBa2ILIJme2dwICm')
+api = twitter.Api(consumer_key='xxx',
+                  consumer_secret='xxx',
+                  access_token_key='xx-x',
+                  access_token_secret='xxx')
 
 def webData():
 	driver = webdriver.Chrome()
